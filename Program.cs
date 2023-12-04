@@ -24,7 +24,7 @@ internal class Program
 
         Console.WriteLine("\n10. feladat: 100GBnél kisebb szemüvegek:");
         List<(int ID, float meretCM)> f10Lista = Feladat10(szemuvegek, 100);
-        foreach (var e in f10Lista) Console.WriteLine($"{e.ID}.: {e.meretCM:0.0} cm");
+        foreach (var (ID, meretCM) in f10Lista) Console.WriteLine($"{ID}.: {meretCM:0.0} cm");
 
         Console.WriteLine("\n11. feladat: összes szenzortípus:");
         List<string> szenzorok = Feladat11(szemuvegek);
@@ -96,7 +96,7 @@ internal class Program
         List<OkosSzemuveg> szemuvegLista = new();
         using StreamReader sr = new(file);
         _ = sr.ReadLine();
-        while (!sr.EndOfStream) szemuvegLista.Add(new(sr.ReadLine()));
+        while (!sr.EndOfStream) szemuvegLista.Add(new(sr.ReadLine()!));
         return szemuvegLista;
     }
     private static void OSZListaKiir(List<OkosSzemuveg> szemuvegLista)
