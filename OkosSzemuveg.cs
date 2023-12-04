@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,7 +36,13 @@ namespace CA23120401
             Meret = float.Parse(v[1]);
             Teljesitmeny = float.Parse(v[2]);
             Felbontas = int.Parse(v[3]);
-            Szenzorok = v[4].Split(',');
+            var szenzorok = v[4].Split(',');
+            for (int i = 0; i < szenzorok.Length; i++)
+            {
+                if (szenzorok[i] == "gyroscope") szenzorok[i] = "giroszkóp";
+                if (szenzorok[i] == "accelerometer") szenzorok[i] = "gyorjulásmérő";
+            }
+            Szenzorok = szenzorok;
             int tarhelySzam = int.Parse(v[5].Split(' ')[0]);
             Tarhely = v[5].EndsWith("GB")
                 ? tarhelySzam : tarhelySzam * 1024;

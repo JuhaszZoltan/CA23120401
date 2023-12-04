@@ -1,0 +1,56 @@
+ID: 4.
+Kijelző méret: 5,7 col
+Processor teljesítmény: 2,4 Ghz
+Kamera felbontás: 18 MP
+Szenzorok: gyorjulásmérő, giroszkóp, fényérzékelő
+Merevlemez mérete: 256 GB
+Üzemidő egy töltéssel: 24 óra
+ID: 10.
+Kijelző méret: 5,5 col
+Processor teljesítmény: 2 Ghz
+Kamera felbontás: 12 MP
+Szenzorok: gyorjulásmérő, pulzusmérő, fényérzékelő
+Merevlemez mérete: 64 GB
+Üzemidő egy töltéssel: 20 óra
+ID: 11.
+Kijelző méret: 6,2 col
+Processor teljesítmény: 2,5 Ghz
+Kamera felbontás: 16 MP
+Szenzorok: fényérzékelő, giroszkóp, hőmérséklet-érzékelő
+Merevlemez mérete: 256 GB
+Üzemidő egy töltéssel: 18 óra
+ID: 12.
+Kijelző méret: 5,8 col
+Processor teljesítmény: 2,2 Ghz
+Kamera felbontás: 14 MP
+Szenzorok: gyorjulásmérő, fényérzékelő, touchpad-érzékelő
+Merevlemez mérete: 1 TB
+Üzemidő egy töltéssel: 22 óra
+ID: 14.
+Kijelző méret: 5,7 col
+Processor teljesítmény: 2,4 Ghz
+Kamera felbontás: 18 MP
+Szenzorok: gyorjulásmérő, giroszkóp, fényérzékelő
+Merevlemez mérete: 256 GB
+Üzemidő egy töltéssel: 24 óra
+ID: 19.
+Kijelző méret: 6,3 col
+Processor teljesítmény: 2,4 Ghz
+Kamera felbontás: 18 MP
+Szenzorok: giroszkóp, fényérzékelő, szívritmus-érzékelő
+Merevlemez mérete: 256 GB
+Üzemidő egy töltéssel: 25 óra
+ID: 24.
+Kijelző méret: 5,7 col
+Processor teljesítmény: 2,4 Ghz
+Kamera felbontás: 18 MP
+Szenzorok: gyorjulásmérő, giroszkóp, fényérzékelő
+Merevlemez mérete: 128 GB
+Üzemidő egy töltéssel: 24 óra
+ID: 29.
+Kijelző méret: 6,3 col
+Processor teljesítmény: 2,4 Ghz
+Kamera felbontás: 18 MP
+Szenzorok: giroszkóp, fényérzékelő, hőmérséklet-érzékelő
+Merevlemez mérete: 1 TB
+Üzemidő egy töltéssel: 25 óra
