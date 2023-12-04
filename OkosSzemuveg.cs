@@ -11,6 +11,7 @@ namespace CA23120401
     {
         public int ID { get; set; }
         public float Meret { get; set; }
+        public float MeretCMben => Meret * 3.54f; 
         public float Teljesitmeny { get; set; }
         public int Felbontas { get; set; }
         public string[] Szenzorok { get; set; }
